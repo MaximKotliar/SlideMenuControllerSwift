@@ -23,19 +23,19 @@ public struct SlideMenuOptions {
     public static var leftBezelWidth: CGFloat? = 16.0
     public static var contentViewScale: CGFloat = 0.96
     public static var contentViewOpacity: CGFloat = 0.5
-    public static var contentViewDrag: Bool = true
-    public static var shadowOpacity: CGFloat = 0.0
-    public static var shadowRadius: CGFloat = 0.0
-    public static var shadowOffset: CGSize = CGSize(width: 0,height: 0)
+    public static var contentViewDrag: Bool = false
+    public static var shadowOpacity: CGFloat = 0.5
+    public static var shadowRadius: CGFloat = 30.0
+    public static var shadowOffset: CGSize = CGSize(width: 20, height: 0)
     public static var panFromBezel: Bool = true
-    public static var animationDuration: CGFloat = 0.4
+    public static var animationDuration: CGFloat = 0.3
     public static var rightViewWidth: CGFloat = 270.0
     public static var rightBezelWidth: CGFloat? = 16.0
     public static var rightPanFromBezel: Bool = true
     public static var hideStatusBar: Bool = true
     public static var pointOfNoReturnWidth: CGFloat = 44.0
     public static var simultaneousGestureRecognizers: Bool = true
-	public static var opacityViewBackgroundColor: UIColor = UIColor.black
+    public static var opacityViewBackgroundColor: UIColor = UIColor.black
     public static var panGesturesEnabled: Bool = true
     public static var tapGesturesEnabled: Bool = true
 }
